@@ -12,6 +12,31 @@ When ambiguity exists, the definitions contained in this document always prevail
 
 ---
 
+# Language Policy
+
+The Knowledge Repository uses **English** as its canonical documentation language.
+
+English maximizes consistency across AI assistants, development tools and future contributors.
+
+However, CoproOS models the legal and operational reality of French condominium governance.
+
+Whenever a French legal or business term has no precise English equivalent, the official French terminology is preserved.
+
+Examples include:
+
+- Conseil Syndical
+- Syndic
+- Assemblée Générale
+- Copropriété
+
+These terms are considered canonical business vocabulary.
+
+Translations may be provided when useful, but the French legal term always takes precedence.
+
+The objective is to preserve both international readability and legal accuracy.
+
+---
+
 # Principles
 
 The glossary should contain:
@@ -50,15 +75,17 @@ Optional clarification.
 
 # Core Concepts
 
+These concepts align with the five Core Business Concepts defined in [02-domain-model/](../02-domain-model/).
+
 ## Actor
 
 A person or organization interacting with the condominium.
 
 Examples include:
 
-- Board Member
-- Board President
-- Property Manager
+- President of the Conseil Syndical
+- Member of the Conseil Syndical
+- Syndic
 - Contractor
 - Supplier
 - Co-owner
@@ -78,7 +105,23 @@ Examples include:
 - Contract
 - Budget
 
-Assets exist independently from documents.
+Assets exist independently from evidence.
+
+---
+
+## Commitment
+
+Something that has been decided, promised, requested or agreed.
+
+Examples include:
+
+- Conseil Syndical decision
+- General Assembly resolution
+- Syndic commitment
+- Contractor obligation
+- Regulatory deadline
+
+Commitments may generate Activities.
 
 ---
 
@@ -94,17 +137,17 @@ Examples include:
 - Contract renewal
 - Maintenance campaign
 
-Activities organize work performed over time.
+Activities organize work performed over time and exist to fulfil Commitments.
 
 ---
 
-## Document
+## Evidence & Knowledge
 
-A source of information.
+**Evidence** is everything that justifies, explains or documents reality.
 
-Documents describe reality but are not reality themselves.
+**Knowledge** is the trusted operational understanding built from evidence over time.
 
-Examples include:
+Examples of evidence include:
 
 - Contract
 - Invoice
@@ -112,22 +155,6 @@ Examples include:
 - Technical report
 - Email
 - Quotation
-
----
-
-## Decision
-
-A validated choice made by authorized actors.
-
-A Decision is supported by knowledge, justified by evidence and may generate new Activities.
-
----
-
-## Knowledge
-
-Validated information that can support decisions.
-
-Knowledge is produced by connecting facts, documents, activities and decisions.
 
 ---
 
@@ -173,7 +200,7 @@ The ability to identify the origin, history and validation of any important info
 
 The accumulated operational knowledge of the condominium.
 
-Institutional Memory survives changes of Board members and preserves the historical context of decisions.
+Institutional Memory survives changes of Conseil Syndical members and preserves the historical context of commitments.
 
 ---
 

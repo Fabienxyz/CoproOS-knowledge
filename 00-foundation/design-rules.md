@@ -87,6 +87,92 @@ Whenever appropriate, provide examples of compliant and non-compliant behavior.
 
 ---
 
+# Approved Design Rules
+
+The following Design Rules are officially adopted for the CoproOS Knowledge Repository.
+
+---
+
+## DR-001 — Foundation Is the Source of Truth
+
+### Rule
+
+The Foundation layer is the highest authoritative source of knowledge in the repository.
+
+Whenever two documents conflict, Foundation takes precedence.
+
+### Rationale
+
+Long-term consistency requires a single authoritative source for principles, terminology and governance.
+
+---
+
+## DR-002 — Capture Knowledge Once
+
+### Rule
+
+Knowledge should exist in one canonical location only.
+
+Other documents should reference the canonical source rather than duplicate its content.
+
+### Rationale
+
+Duplicated knowledge inevitably diverges over time.
+
+References preserve consistency.
+
+---
+
+## DR-003 — Model the Business Before the Software
+
+### Rule
+
+Business concepts must be modeled before implementation decisions.
+
+Architecture serves the Domain Model.
+
+The Domain Model serves the Product.
+
+The Product serves the Vision.
+
+### Rationale
+
+Technology changes.
+
+Business reality changes much more slowly.
+
+---
+
+## DR-004 — Prefer Evolution Over Expansion
+
+### Rule
+
+Before creating a new document, concept or layer, existing knowledge should be improved whenever possible.
+
+New repository artifacts require explicit justification.
+
+### Rationale
+
+A smaller, coherent repository is more valuable than a larger fragmented one.
+
+---
+
+## DR-005 — Preserve Institutional Memory
+
+### Rule
+
+Important decisions should never exist only in conversations.
+
+Significant architectural, business and product decisions must be recorded in canonical documents or ADRs.
+
+### Rationale
+
+Institutional memory is one of the core promises of CoproOS.
+
+The repository itself must demonstrate the principles promoted by the product.
+
+---
+
 # Rule Categories
 
 Design Rules generally belong to one of the following categories.

@@ -16,7 +16,7 @@ Changes here are rare and deliberate. Everything else in the repository derives 
 ## What Does Not Belong Here
 
 - Business rules, domain models, or feature specifications
-- Architecture decisions (see `04-decisions-adr/`)
+- Architecture decisions (see [05-decisions/](../05-decisions/))
 - Implementation details or source code
 - Current priorities, drafts, or work-in-progress
 
@@ -32,3 +32,21 @@ The repository is the source of truth. The Foundation holds the highest-level, m
 | [design-principles.md](design-principles.md) | Non-negotiable and product design principles; the highest-level technical reference |
 | [design-rules.md](design-rules.md) | Concrete rules derived from Design Principles |
 | [glossary.md](glossary.md) | Shared definitions and terminology |
+
+## Repository Layers
+
+```text
+Foundation
+    ↓
+Product
+    ↓
+Domain Model
+    ↓
+Business
+    ↓
+Architecture
+    ↓
+Decisions
+```
+
+See [START_HERE.md](../START_HERE.md) for the recommended reading order.

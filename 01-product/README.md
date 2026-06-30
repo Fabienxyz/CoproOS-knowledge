@@ -4,7 +4,7 @@
 
 The Product section defines what CoproOS delivers to its users.
 
-It describes the value created for Condominium Boards, the problems being solved, the product philosophy and the functional building blocks that together form the product.
+It describes the value created for the Conseil Syndical, the problems being solved, the product philosophy and the functional building blocks that together form the product.
 
 This section answers:
 
@@ -64,18 +64,20 @@ The product follows a simple hierarchy.
 ```text
 Vision
     ↓
-Value Proposition
+Foundation
     ↓
-Product Modules
-    ↓
-User Workflows
+Product
     ↓
 Domain Model
     ↓
+Business
+    ↓
 Architecture
     ↓
-Implementation
+Decisions
 ```
+
+The Product layer defines value and modules. The business reality is defined in [02-domain-model/](../02-domain-model/). Technical realization belongs in [04-architecture/](../04-architecture/).
 
 Every product decision should strengthen one or more Value Proposition pillars.
 
@@ -105,5 +107,7 @@ However, every product decision must remain consistent with:
 - the Design Rules.
 
 The Product section defines **what** the product should become.
+
+The Domain Model defines **what reality** the product represents.
 
 The Architecture section defines **how** it will be built.

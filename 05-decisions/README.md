@@ -1,7 +1,13 @@
-# 04 — Decisions (ADR)
+# 05 — Decisions (ADR)
 
 Architecture Decision Records : choix importants, alternatives envisagées, justification et conséquences.
 
 Un ADR par décision significative. Format court : contexte, décision, statut (proposé / accepté / déprécié).
 
-Évitez de dupliquer le détail technique déjà couvert dans `04-architecture/` ; renvoyez-y quand c'est pertinent.
+Évitez de dupliquer le détail technique déjà couvert dans [04-architecture/](../04-architecture/) ; renvoyez-y quand c'est pertinent.
+
+## Repository Layers
+
+```text
+Foundation → Product → Domain Model → Business → Architecture → Decisions
+```

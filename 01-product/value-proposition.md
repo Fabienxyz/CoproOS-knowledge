@@ -4,7 +4,7 @@
 
 This document defines the customer value delivered by CoproOS.
 
-It explains why Condominium Boards adopt the product, which problems it solves and the value the product creates.
+It explains why the Conseil Syndical adopts the product, which problems it solves and the value the product creates.
 
 Every product decision should reinforce one or more Strategic Pillars.
 
@@ -16,7 +16,7 @@ CoproOS is value-driven.
 
 The product is not built around features.
 
-It is built around solving the most important problems experienced by volunteer Condominium Boards.
+It is built around solving the most important problems experienced by volunteer members of the Conseil Syndical.
 
 Features are only a means to deliver customer value.
 
@@ -24,7 +24,7 @@ Features are only a means to deliver customer value.
 
 # The Core Promise
 
-CoproOS enables volunteer Condominium Boards to operate with the professionalism, continuity and efficiency of a permanent organization.
+CoproOS enables volunteer members of the Conseil Syndical to operate with the professionalism, continuity and efficiency of a permanent organization.
 
 The product transforms fragmented information into trusted operational knowledge.
 
@@ -36,7 +36,7 @@ The product transforms fragmented information into trusted operational knowledge
 
 ### Customer Pain
 
-Knowledge disappears whenever Board members change. Historical context is lost and the same questions are repeatedly asked.
+Knowledge disappears whenever Conseil Syndical members change. Historical context is lost and the same questions are repeatedly asked.
 
 ### Value Delivered
 
@@ -58,11 +58,11 @@ Institutional knowledge becomes permanent and remains understandable over time.
 
 ### Customer Pain
 
-Board members struggle to monitor commitments, responsibilities and follow-up actions.
+Members of the Conseil Syndical struggle to monitor commitments, responsibilities and follow-up actions.
 
 ### Value Delivered
 
-The Board gains continuous visibility over the syndic's commitments and activities.
+The Conseil Syndical gains continuous visibility over the Syndic's commitments and activities.
 
 ### Buying Impact
 
@@ -124,7 +124,7 @@ Every decision is supported by context, history and evidence.
 
 ### Customer Pain
 
-Board members spend excessive time searching for information.
+Members of the Conseil Syndical spend excessive time searching for information.
 
 ### Value Delivered
 
@@ -142,11 +142,11 @@ Important information becomes immediately available with supporting evidence.
 
 ---
 
-## SP-06 — Run Better Board Meetings
+## SP-06 — Run Better Conseil Syndical Meetings
 
 ### Customer Pain
 
-Preparing Board meetings requires collecting information from multiple sources.
+Preparing Conseil Syndical meetings requires collecting information from multiple sources.
 
 ### Value Delivered
 
@@ -168,7 +168,7 @@ Meetings become structured, focused and actionable.
 
 ### Customer Pain
 
-Board members are volunteers with limited availability.
+Members of the Conseil Syndical are volunteers with limited availability.
 
 Administrative work consumes valuable personal time.
 
@@ -232,15 +232,15 @@ Reliable information becomes easier to prepare and communicate.
 
 ---
 
-## SP-10 — Ensure Board Continuity
+## SP-10 — Ensure Conseil Syndical Continuity
 
 ### Customer Pain
 
-Board transitions often result in major operational disruption.
+Conseil Syndical transitions often result in major operational disruption.
 
 ### Value Delivered
 
-New Board members become productive quickly without relying on informal knowledge transfer.
+New members of the Conseil Syndical become productive quickly without relying on informal knowledge transfer.
 
 ### Buying Impact
 

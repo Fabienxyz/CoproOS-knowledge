@@ -39,7 +39,7 @@ Preserve, organize and exploit the institutional memory of the condominium.
 - SP-01 — Never Lose Your Building's Memory
 - SP-04 — Make Better Decisions
 - SP-05 — Find Answers Instantly
-- SP-10 — Ensure Board Continuity
+- SP-10 — Ensure Conseil Syndical Continuity
 
 ---
 
@@ -47,14 +47,14 @@ Preserve, organize and exploit the institutional memory of the condominium.
 
 ### Purpose
 
-Support the day-to-day governance of the Condominium Board, including meetings, decisions and oversight of the property manager.
+Support the day-to-day governance of the Conseil Syndical, including meetings, commitments and oversight of the Syndic.
 
 ### Supports Strategic Pillars
 
 - SP-02 — Stay in Control of Your Syndic
 - SP-04 — Make Better Decisions
-- SP-06 — Run Better Board Meetings
-- SP-10 — Ensure Board Continuity
+- SP-06 — Run Better Conseil Syndical Meetings
+- SP-10 — Ensure Conseil Syndical Continuity
 
 ---
 
@@ -89,7 +89,7 @@ Maintain a structured understanding of the condominium's physical assets, contra
 
 ### Purpose
 
-Facilitate clear, transparent and trusted communication between the Board and co-owners.
+Facilitate clear, transparent and trusted communication between the Conseil Syndical and co-owners.
 
 ### Supports Strategic Pillars
 

@@ -2,47 +2,89 @@
 
 ## Purpose
 
-The Domain Model defines the real-world concepts represented by the product.
+The Domain Model defines the business reality represented by CoproOS.
 
-It describes the business entities, their relationships and their lifecycle independently from any technical implementation.
+It identifies the fundamental concepts that exist independently of software implementation and provides the common language shared by Product, Architecture and AI.
 
 The Domain Model answers one question:
 
-> **What reality does the product represent?**
+> **What reality does CoproOS represent?**
 
 ---
 
-## Scope
+# Guiding Principle
 
-This section defines:
+Model the business before modelling the software.
 
-- business entities
-- relationships
-- business concepts
-- domain invariants
-- knowledge structure
+Technology changes.
 
-It intentionally excludes:
-
-- database schemas
-- APIs
-- UI
-- implementation details
+The business domain should remain stable.
 
 ---
 
-## Guiding Principle
+# The Five Core Business Concepts
 
-> Model reality before designing software.
+The CoproOS Domain Model is built around five fundamental concepts.
 
-The Domain Model should remain stable even if the implementation changes.
+- **Actors** — Who interacts with the condominium.
+- **Assets** — What the condominium owns or manages.
+- **Commitments** — What has been decided, promised or agreed.
+- **Activities** — How commitments are executed.
+- **Evidence & Knowledge** — Why the system knows what it knows.
+
+These concepts form the shared language of CoproOS.
+
+No additional Core Business Concept should be introduced unless it cannot naturally be represented by one of these five.
 
 ---
 
-## Governance
+# Domain Documentation
 
-Every feature should rely on the Domain Model.
+The Domain Model is progressively refined through the following documents.
 
-Architecture implements the Domain Model.
+## domain-overview.md
 
-The Domain Model must remain consistent with the Foundation and Product documentation.
+Provides the high-level business view of the domain.
+
+---
+
+## entities.md
+
+Defines each Core Business Concept.
+
+---
+
+## relationships.md
+
+Describes how the Core Business Concepts interact.
+
+---
+
+## lifecycle.md
+
+Explains how the domain continuously evolves over time.
+
+---
+
+# Relationship With The Repository
+
+The Domain Model translates the Product Vision into business concepts.
+
+It is implementation-independent.
+
+The Architecture layer is responsible for translating these business concepts into software.
+
+---
+
+# Governance
+
+Changes to the Domain Model should be rare.
+
+Every change must preserve:
+
+- simplicity;
+- consistency;
+- traceability;
+- long-term stability.
+
+The Domain Model represents the business, not the implementation.
